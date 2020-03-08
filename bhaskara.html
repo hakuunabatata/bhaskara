@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara</title>
+</head>
+<body>
+    <script src="bhaskara.js"></script>
+    <h1>Calculo Equação de Segundo Grau</h1>
+    <p>Insira a equação abaixo, utilize:</p>
+    <ul>
+        <li>[+] para adição</li>
+        <li>[-] para subtração</li>
+        <li>[*] para multiplicação</li>
+        <li>[/] para divisão</li>
+        <li>[^] para exponenciação</li>
+        <li>[x] para incógnita</li>
+        <li>Insira a formula igualada a 0, seguindo a ordem x^2 + x^1 + x^0</li>
+        <li>Exemplo: "15x^2 + 25x + 5 = 0"</li>
+    </ul>
+    <input type="text" title="Insira a equação" name="Insira a equação" id="equacao">
+    <input type="button" value="Calcular" onclick="Bhaskara()">
+    <h2 id='formula'></h2>
+    <div id='results'></div>
+</body>
+</html>
